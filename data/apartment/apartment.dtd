@@ -1,0 +1,14 @@
+
+
+
+
+<!DOCTYPE apartment[
+  <!ELEMENT apartment (wall)*>  
+  <!ELEMENT wall (x,y)*> 
+  <!ELEMENT x (#PCDATA)>
+  <!ELEMENT y (#PCDATA)>
+]>
+
+<!--DOCTYPE apartment SYSTEM "apartment.dtd"-->
+<!--описание координат стенки-->
+<!--конец описание координат стенки-->  

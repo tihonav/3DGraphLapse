@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+<!DOCTYPE apartment[
+  <!ELEMENT apartment (size,offset,heigth?,indent*,wall*)>  
+  <!ELEMENT size (width,heigth)>
+  <!ELEMENT offset (top,left,bottom,right)> 
+  <!ELEMENT indent (top,left,bottom,right)>
+  <!ELEMENT wall (width ,heigth ,x,y,(x,y)+)> 
+
+  <!ELEMENT width (#PCDATA)>
+  <!ELEMENT heigth (#PCDATA)>
+  <!ELEMENT x (#PCDATA)>
+  <!ELEMENT y (#PCDATA)>
+  <!ELEMENT top (#PCDATA)>
+  <!ELEMENT left (#PCDATA)>
+  <!ELEMENT bottom (#PCDATA)>
+  <!ELEMENT right (#PCDATA)>
+]>
+
+
+
+
+
+
+
+
+
+
+<apartment>
+
+
+  <size>
+     <width>673</width>
+     <heigth>529</heigth>
+  </size>
+  
+  <offset>
+     <top>36</top>
+     <left>66</left>  
+     <bottom>30</bottom>   
+     <right>-65</right>   
+  </offset>
+
+
+
+  <heigth>0.3</heigth>
+
+
+
+  <!-- wall description -->
+  <!-- wall 1-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>351</x>
+       <y>29</y>
+       <x>345</x>
+       <y>80</y>
+       <x>346</x>
+       <y>133</y> 
+  </wall>
+
+  <!-- wall 2-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>360</x>
+       <y>187</y>
+       <x>357</x>
+       <y>167</y>
+  </wall>
+
+  <!-- wall 3-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>281</x>
+       <y>231</y>
+       <x>326</x>
+       <y>216</y>
+       <x>360</x>
+       <y>187</y> 
+  </wall>
+
+  <!-- wall 4-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>64</x>
+       <y>374</y>
+       <x>108</x>
+       <y>363</y>
+  </wall>
+
+  <!-- wall 5-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>156</x>
+       <y>356</y>
+       <x>156</x>
+       <y>509</y>
+  </wall>
+
+  <!-- wall 6-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>150</x>
+       <y>357</y>
+       <x>186</x>
+       <y>355</y>
+       <x>220</x>
+       <y>356</y> 
+  </wall>
+
+  <!-- wall 7-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>215</x>
+       <y>355</y>
+       <x>215</x>
+       <y>383</y>
+  </wall>
+
+
+
+
+
+  <!-- wall 8-->
+  <wall>
+       <width>15</width>   
+       <heigth>0.5</heigth>        
+       <x>51</x>
+       <y>15</y>
+       <x>51</x>
+       <y>300</y>              
+  </wall>
+
+  <!-- wall 9-->
+  <wall>
+       <width>15</width>   
+       <heigth>0.5</heigth>        
+       <x>51</x>
+       <y>353</y>
+       <x>51</x>
+       <y>516</y>              
+  </wall>
+
+  <!-- wall 10-->
+  <wall>
+       <width>15</width>   
+       <heigth>0.5</heigth>        
+       <x>64</x>
+       <y>516</y>
+       <x>87</x>
+       <y>516</y>              
+  </wall>
+
+  <!-- wall 11-->
+  <wall>
+       <width>15</width>   
+       <heigth>0.5</heigth>        
+       <x>87</x>
+       <y>521</y>
+       <x>398</x>
+       <y>521</y>              
+  </wall>
+
+  <!-- wall 12-->
+  <wall>
+       <width>15</width>   
+       <heigth>0.5</heigth>        
+       <x>398</x>
+       <y>517</y>
+       <x>420</x>
+       <y>517</y>              
+  </wall>
+
+  <!-- wall 13-->
+  <wall>
+       <width>15</width>   
+       <heigth>0.5</heigth>        
+       <x>420</x>
+       <y>513</y>
+       <x>651</x>
+       <y>513</y>              
+  </wall>
+
+  <!-- wall 14-->
+  <wall>
+       <width>15</width>   
+       <heigth>0.5</heigth>        
+       <x>638</x>
+       <y>23</y>
+       <x>638</x>
+       <y>513</y>              
+  </wall>
+
+  <!-- wall 15-->
+  <wall>
+       <width>15</width>   
+       <heigth>0.5</heigth>        
+       <x>419</x>
+       <y>38</y>
+       <x>638</x>
+       <y>38</y>              
+  </wall>
+
+  <!-- wall 16-->
+  <wall>
+       <width>15</width>   
+       <heigth>0.5</heigth>        
+       <x>396</x>
+       <y>33</y>
+       <x>419</x>
+       <y>33</y>              
+  </wall>
+
+  <!-- wall 17-->
+  <wall>
+       <width>15</width>   
+       <heigth>0.5</heigth>        
+       <x>64</x>
+       <y>30</y>
+       <x>396</x>
+       <y>30</y>              
+  </wall>
+
+
+
+  <!-- wall 18-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>215</x>
+       <y>383</y>
+       <x>302</x>
+       <y>383</y>
+  </wall>
+  <!-- wall 19-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>301</x>
+       <y>349</y>
+       <x>301</x>
+       <y>508</y>
+  </wall>
+  <!-- wall 20-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>326</x>
+       <y>342</y>
+       <x>313</x>
+       <y>346</y>
+       <x>301</x>
+       <y>349</y>
+  </wall>
+  <!-- wall 21-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>372</x>
+       <y>330</y>
+       <x>385</x>
+       <y>322</y>
+       <x>401</x>
+       <y>311</y>
+  </wall>
+  <!-- wall 22-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>392</x>
+       <y>312</y>
+       <x>392</x>
+       <y>508</y>
+  </wall>
+  <!-- wall 23-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>440</x>
+       <y>267</y>
+       <x>431</x>
+       <y>276</y>
+  </wall>
+  <!-- wall 24-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>638</x>
+       <y>266</y>
+       <x>549</x>
+       <y>276</y>
+       <x>440</x>
+       <y>267</y>
+  </wall>
+  <!-- wall 25-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>64</x>
+       <y>260</y>
+       <x>90</x>
+       <y>252</y>
+  </wall>
+  <!-- wall 26-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>131</x>
+       <y>244</y>
+       <x>160</x>
+       <y>243</y>
+  </wall>
+  <!-- wall 27-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>144</x>
+       <y>154</y>
+       <x>144</x>
+       <y>238</y>
+  </wall>
+  <!-- wall 28-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>64</x>
+       <y>154</y>
+       <x>150</x>
+       <y>154</y>
+  </wall>
+  <!-- wall 29-->
+  <wall>  
+       <width>6</width>   
+       <heigth>0.5</heigth>      
+       <x>99</x>
+       <y>29</y>
+       <x>99</x>
+       <y>148</y>
+  </wall>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ends wall description -->  
+</apartment>
