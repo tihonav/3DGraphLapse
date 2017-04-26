@@ -2,7 +2,7 @@ import Math.COLORFUNCTIONS;
 import Math.Geometry;
 import java.io.PrintStream;
 import com.jogamp.opengl.GL2;
-//import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL;
 
 
 class roomDrawing

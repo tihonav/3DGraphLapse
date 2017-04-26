@@ -78,7 +78,7 @@ public class JavaRenderer
   public void display(GLAutoDrawable gLDrawable)
   {
     GL2 gl = gLDrawable.getGL().getGL2();
-    /*
+
     //if (gl.glIsEnabled(2896) != this.LIGHTING)
     if(this.ENABLE_3DGRAPH_CURRENT!=this.ENABLE_3DGRAPH_NEW)
     {
@@ -102,18 +102,17 @@ public class JavaRenderer
 	graphTransparency = 0.55F;
 	gl.glLoadIdentity();
         gl.glRotatef(90.0F, 1.0F, 0.0F, 0.0F);
-	
-        //gl.glLoadIdentity();
-        //gl.glRotatef(90.0F, 1.0F, 0.0F, 0.0F);
-        //gl.glPushMatrix();
-	
+	/*
+        gl.glLoadIdentity();
+        gl.glRotatef(90.0F, 1.0F, 0.0F, 0.0F);
+        gl.glPushMatrix();
+	*/
       }
       //gl.glPushMatrix();
 
       roomINTERPOLIZED.setGraphTransparency(graphTransparency);
       room.setGraphTransparency(graphTransparency);
     }
-    */
 
     gl.glClear(16384);
     gl.glClear(256);
@@ -171,7 +170,7 @@ public class JavaRenderer
 
     //gl.glPushMatrix();
 
-    //room.GLdraw(gl);
+    room.GLdraw(gl);
     roomINTERPOLIZED.GLdraw(gl);
   }
 
